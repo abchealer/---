@@ -1,0 +1,11 @@
+#include <iostream>
+#include<math.h>
+using namespace std;
+int main()
+{
+    int y, d, n;
+    scanf("%02d-%02d-%d", &y, &d, &n);
+    printf("%d-%02d-%02d", n, y, d);
+    
+    return 0;
+}
