@@ -1,0 +1,13 @@
+#include <iostream>
+#include<math.h>
+using namespace std;
+int main()
+{
+    int n, m;
+    scanf("%d %d", &n, &m);
+    int ans =n*m;
+    
+        cout<<ans;
+    
+    return 0;
+}
