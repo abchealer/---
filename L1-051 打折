@@ -1,0 +1,13 @@
+#include <iostream>
+#include<math.h>
+using namespace std;
+int main()
+{
+    int n, m;
+    cin>>n>>m;
+    float ans = n*m*1.0/10;
+    //n*m/10*1.0（如果最后在*1.0）n*m/10=691；然后*1.0=691.00
+    //解决：先*1.0=6916.0;然后在/10=691.6
+    printf("%.2f", ans);
+    return 0;
+}
